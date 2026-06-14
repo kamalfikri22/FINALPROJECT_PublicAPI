@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Finder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>🎓 University Finder</h1>
+            <p class="subtitle">
+                Cari universitas berdasarkan negara
+            </p>
+        </div>
+
+       <div class="search-box">
+
+            <input
+                type="text"
+                id="countryInput"
+                placeholder="Contoh: Indonesia, Japan, Malaysia">
+
+            <button onclick="searchUniversity()">
+                Cari
+            </button>
+
+            <button onclick="resetSearch()" class="reset-btn">
+                Reset
+            </button>
+
+        </div>
+
+        <div id="searchInfo"></div>
+
+        <div id="result">
+
+            <div class="welcome">
+                🔍 Silakan masukkan nama negara untuk mencari universitas
+            </div>
+
+        </div>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>
+            University Finder © 2026
+        </p>
+        <p>
+            Dibuat oleh Latif Kamal Fikri
+        </p>
+        <p>
+            Menggunakan Hipolabs Universities API
+        </p>
+
+    </footer>
+
+</body>
+</html>

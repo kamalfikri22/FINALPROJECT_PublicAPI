@@ -25,8 +25,8 @@ async function searchUniversity() {
 
     try {
 
-        const response = await fetch(
-            `https://universities.hipolabs.com/search?country=${country}`
+       const response = await fetch(
+            `https://corsproxy.io/?http://universities.hipolabs.com/search?country=${country}`
         );
 
         const data = await response.json();
